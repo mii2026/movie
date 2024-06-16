@@ -1,0 +1,93 @@
+button {
+  width: 300px;
+  height: 40px;
+  border: none;
+
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.enter50 {
+  height: 50px;
+}
+
+
+.signin-progress {
+  width: 60%;
+  min-width: 600px;
+  height: auto;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.signin-progress > div {
+  margin: 10px;
+  font-size: large;
+}
+
+.signin-progress > #bold {
+  color: orange;
+}
+
+
+.signin-container {
+  box-shadow: 0px 0px 4px gray;
+  width: 80%;
+  min-width: 500px;
+  height: auto;
+  min-height: 400px;
+  margin: 20px auto;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.emailverification {
+  width: 300px;
+}
+
+#birthday {
+  width: 150px;
+  height: 40px;
+  margin-right: 7px;
+}
+
+#gender {
+  width: 40px;
+  height: 40px;
+  margin: 0px 7px;
+}
+
+
+.agree {
+  width: 70%;
+}
+
+.agree > .box {
+  height: 200px;
+  box-shadow: 0px 0px 2px gray inset;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.agree > .check {
+  font-size: small;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+
+.memberinfo {
+  width: 500px;
+}
