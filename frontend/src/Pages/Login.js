@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import '../Style/Global.css'
 import '../Style/Login.css';
 
 const Login = () => {
@@ -8,11 +9,13 @@ const Login = () => {
         <div className="login-container">
           <h2>로그인</h2>
 
-          <div>
-            <input type="email" placeholder="이메일을 입력하세요"/>
-          </div>
-          <div>
-            <input type="password" placeholder="비밀번호를 입력하세요"/>
+          <div className="login">
+            <div>
+              <input type="email" placeholder="이메일을 입력하세요"/>
+            </div>
+            <div>
+              <input type="password" placeholder="비밀번호를 입력하세요"/>
+            </div>
           </div>
           
           <div>
@@ -22,7 +25,7 @@ const Login = () => {
             <Link to="/findpw" className="button2">비밀번호 찾기</Link>
           </div>
           <div>
-            <Link to="/signin" className="button2">회원가입</Link>
+            <Link to="/join/verify-email" className="button2">회원가입</Link>
           </div>
         </div>
       </>
