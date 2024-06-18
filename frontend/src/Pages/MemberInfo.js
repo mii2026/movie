@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../Style/Global.css'
-import '../Style/Signin.css';
+import '../Style/Join.css';
 
 const MemberInfo = () => {
 
@@ -23,7 +23,7 @@ const MemberInfo = () => {
         <div>가입 완료</div>
       </div>
 
-      <div className='signin-container'> 
+      <div className='big-container'> 
         <h2>회원 정보 입력</h2>
 
         <div className='memberinfo'>
@@ -53,7 +53,7 @@ const MemberInfo = () => {
 
         <div className='enter50'></div>
         
-        <button onClick={handleClick}>동의하고 다음으로</button>
+        <button className="button1" onClick={handleClick}>동의하고 다음으로</button>
       </div>
     </>
   );
