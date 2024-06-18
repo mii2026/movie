@@ -27,33 +27,34 @@ const MemberInfo = () => {
         <h2>회원 정보 입력</h2>
 
         <div className='memberinfo'>
-          <p>이름 *</p>
+          <p style={{marginTop:"0px"}}>이름 *</p>
           <div>
-            <input type="text" placeholder="이름을 입력하세요"/>
+            <input type="text" value="홍길동" disabled/>
           </div>
           
           <p>이메일 *</p>
           <div>
-            <input type="email" placeholder="이메일을 입력하세요"/>
+            <input type="email" value="myemail@naver.com" disabled/>
           </div>
           
           <p>비밀번호 *</p>
+          <p style={{fontSize: "small"}}>(영문, 숫자, 특수문자를 조합하여 8~20자의 길이로 구성)</p>
           <div>
-            <input type="password" placeholder="인증 번호를 입력하세요" />
+            <input type="password" placeholder="비밀번호를 입력하세요" />
           </div>
           <div>
-            <input type="password" placeholder="인증 번호를 입력하세요" />
+            <input type="password" placeholder="비밀번호를 입력하세요" />
           </div>
           
           <p>생년월일 *</p>
           <div>
-            <input type="text" placeholder="인증 번호를 입력하세요" />
+            <input type="text" value="1900.01.01" disabled/>
           </div>
         </div>
 
         <div className='enter50'></div>
         
-        <button className="button1" onClick={handleClick}>동의하고 다음으로</button>
+        <button className="button1" onClick={handleClick}>등록하기</button>
       </div>
     </>
   );
