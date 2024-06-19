@@ -54,7 +54,7 @@ const Login = () => {
           <Link to="/findpw" className="button2">비밀번호 찾기</Link>
         </div>
         <div>
-          <Link to="/join/verify-email" className="button2">회원가입</Link>
+          <Link to="/join/verify-info" className="button2">회원가입</Link>
         </div>
       </div>
     </>
