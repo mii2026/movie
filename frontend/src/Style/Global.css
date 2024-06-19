@@ -22,15 +22,25 @@ Input{
 }
 
 .button1, .button2{
-  width: 300px;
   height: 40px;
   border: none;
   cursor: pointer;
 }
 
+.button1 {
+  width: 300px;
+}
+
 .button2 {
   color: black;
   text-decoration: none;
+  font-size: small;
+  background: none;
+}
+
+.check-message {
+  margin-bottom: 10px;
+  color: red;
   font-size: small;
 }
 
