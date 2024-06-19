@@ -51,7 +51,7 @@ const Login = () => {
           <button className="button1" onClick={handleLoginClick}>로그인</button>
         </div>
         <div>
-          <Link to="/findpw" className="button2">비밀번호 찾기</Link>
+          <Link to="/findpw/member-info" className="button2">비밀번호 찾기</Link>
         </div>
         <div>
           <Link to="/join/verify-info" className="button2">회원가입</Link>

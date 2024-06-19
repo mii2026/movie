@@ -8,7 +8,8 @@ import EmailVerification from './Pages/Join/EmailVerification';
 import Agreement from './Pages/Join/Agreement';
 import MemberInfo from './Pages/Join/MemberInfo';
 import Register from './Pages/Join/Register';
-import Findpw from './Pages/Findpw';
+import FindPwInfo from './Pages/FindPw/FindPwInfo';
+import SendPw from './Pages/FindPw/SendPw';
 import MyPage from './Pages/MyPage';
 import OrderList from './Pages/OrderList';
 import NotFound from './Pages/Notfound';
@@ -26,7 +27,8 @@ function App() {
           <Route path='/join/agreement' element={<Agreement />}></Route>
           <Route path='/join/member-info' element={<MemberInfo />}></Route>
           <Route path='/join/register' element={<Register />}></Route>
-          <Route path='/findpw' element={<Findpw />}></Route>
+          <Route path='/findpw/member-info' element={<FindPwInfo />}></Route>
+          <Route path='/findpw/send-pw' element={<SendPw />}></Route>
           <Route path='/mypage' element={<MyPage />}></Route>
           <Route path='/orderlist' element={<OrderList />}></Route>
           <Route path='*' element={<NotFound />}></Route>
