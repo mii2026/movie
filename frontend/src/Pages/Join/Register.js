@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import '../Style/Global.css'
-import '../Style/Join.css';
+import '../../Style/Global.css'
+import '../../Style/Join.css';
 
 const Register = () => {
   

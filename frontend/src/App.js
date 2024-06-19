@@ -3,14 +3,15 @@ import { Routes, Route} from 'react-router-dom'
 import Nav from "./Component/Nav";
 import Login from './Pages/Login';
 import Main from './Pages/Main';
-import EmailVerification from './Pages/EmailVerification';
-import Agreement from './Pages/Agreement';
-import MemberInfo from './Pages/MemberInfo';
-import Register from './Pages/Register';
+import VerificationInfo from './Pages/Join/Verificationinfo';
+import EmailVerification from './Pages/Join/EmailVerification';
+import Agreement from './Pages/Join/Agreement';
+import MemberInfo from './Pages/Join/MemberInfo';
+import Register from './Pages/Join/Register';
 import Findpw from './Pages/Findpw';
 import MyPage from './Pages/MyPage';
 import OrderList from './Pages/OrderList';
-import NotFound from './Notfound';
+import NotFound from './Pages/Notfound';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />}></Route>
           <Route path='/login' element={<Login />}></Route>
+          <Route path='/join/verify-info' element={<VerificationInfo />}></Route>
           <Route path='/join/verify-email' element={<EmailVerification />}></Route>
           <Route path='/join/agreement' element={<Agreement />}></Route>
           <Route path='/join/member-info' element={<MemberInfo />}></Route>
