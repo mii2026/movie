@@ -10,7 +10,7 @@ import MemberInfo from './Pages/Join/MemberInfo';
 import Register from './Pages/Join/Register';
 import FindPwInfo from './Pages/FindPw/FindPwInfo';
 import SendPw from './Pages/FindPw/SendPw';
-import MyPage from './Pages/MyPage';
+import Profile from './Pages/Profile';
 import OrderList from './Pages/OrderList';
 import NotFound from './Pages/Notfound';
 
@@ -29,8 +29,8 @@ function App() {
           <Route path='/join/register' element={<Register />}></Route>
           <Route path='/findpw/member-info' element={<FindPwInfo />}></Route>
           <Route path='/findpw/send-pw' element={<SendPw />}></Route>
-          <Route path='/mypage' element={<MyPage />}></Route>
-          <Route path='/orderlist' element={<OrderList />}></Route>
+          <Route path='/mypage/profile' element={<Profile />}></Route>
+          <Route path='/mypage/orderlist' element={<OrderList />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
       </div>
