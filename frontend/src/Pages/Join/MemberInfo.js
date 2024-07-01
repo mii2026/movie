@@ -81,7 +81,7 @@ const MemberInfo = () => {
           </div>
           
           <p>비밀번호 *</p>
-          <p style={{fontSize: "small"}}>(영문, 숫자, 특수문자를 조합하여 8~20자의 길이로 구성)</p>
+          <p style={{fontSize: "small", marginTop: "0px"}}>(영문, 숫자, 특수문자를 조합하여 8~20자의 길이로 구성)</p>
           <div>
             <input 
               type="password" 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import '../Style/MyPageList.css'
+import '../Style/MyPage.css'
 
 const MyPageList = () => {
   

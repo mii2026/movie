@@ -1,0 +1,23 @@
+nav {
+  background-color: black;
+  width: auto;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-containers, .navlink-containers {
+  flex: none;
+  padding: 20px;
+}
+
+.navlink-containers {
+  margin-left: auto;
+}
+
+.logo, .navlink {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}

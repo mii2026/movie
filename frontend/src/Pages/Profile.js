@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MyPageList from "../Component/MyPageList";
 import { confirmPw } from "../Component/Confirm";
 import "../Style/Global.css"
-import "../Style/Profile.css"
+import "../Style/MyPage.css"
 
 const Profile = () => {
   // 회원 정보
@@ -80,10 +80,10 @@ const Profile = () => {
       <div className='mypage-container'>
         <MyPageList />
 
-        <div className='container'>
-          <div className='container2'>
+        <div className='mypage-body'>
+          <div className='profile'>
             <h2>회원 정보 확인</h2>
-            <div class="info">
+            <div>
               <div style={{marginBottom:"15px"}}>이름</div>
               <div>
                 <input type="text" value={username} disabled/>
@@ -100,7 +100,7 @@ const Profile = () => {
             </div>
 
             <h2>비밀번호</h2>
-            <div class="info">
+            <div>
               <div style={{marginBottom:"15px"}}>이름</div>
               <div>
                 <input 
